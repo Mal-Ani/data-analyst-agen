@@ -1,0 +1,21 @@
+# Виртуальное окружение
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Секреты — НИКОГДА не коммитить
+.env
+.env.local
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Временные файлы запусков агента
+/tmp_runs/
+
+# Системные/редакторские файлы
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
